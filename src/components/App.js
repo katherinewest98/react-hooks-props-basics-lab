@@ -8,8 +8,9 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Home color={user.color} name={ user.name } city={ user.city } />
-      <About bio={ user.bio } links={ user.links }/>
+      <Home color={user.color} name={user.name} city={user.city}/>
+      <About bio={user.bio} links={user.links}/>
+      {/* Does it need to be the top level keys only? */}
     </div>
   );
 }
